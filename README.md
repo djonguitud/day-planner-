@@ -1,1 +1,1 @@
-# Inicio de planificador de días de trabajo
+# Código de inicio para Planificador de días de trabajo
