@@ -10,77 +10,31 @@
 			rel="stylesheet"
 			integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
 			crossorigin="anonymous" />
-		<link
-			rel="stylesheet"
-			href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-			integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-			crossorigin="anonymous" />
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="./assests/style.css" />
 		<title>Planificador de días de trabajo</title>
 	</head>
 
 	<body>
-		<div class="container row-cols-6">
+		<div class="container-xxl flex-column text-center h-100">
 			<header class="jumbotron text-center col-12">
 				<h1 class="display-3">Planificador de días de trabajo</h1>
 				<p class="lead">Una aplicación de calendario simple para programar su día de trabajo</p>
 				<p id="currentDay" class="lead"></p>
 			</header>
-			<main class="text-bg-primary p-3 col-12">
+			<main class="text-bg-primary p-3 container-l h-auto">
 				<!-- Timeblocks go here -->
-				<form action="#" class="d-flex flex-row align-items-center justify-content-center">
-					<div>9:00 AM</div>
-					<textarea name="" id="" class="form-control" class="flex-grow-1"></textarea>
-					<div><button>==></button></div>
-				</form>
 
-				<form action="#" class="d-flex flex-row align-items-center">
-					<div>10:00 AM</div>
+				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+					<div
+						class="hour flex-fill d-flex flex-column align-content-center justify-content-center">
+						9:00 AM
+					</div>
 					<textarea name="" id="" class="form-control" class="flex-grow-1"></textarea>
-					<div><button>==></button></div>
-				</form>
-
-				<form action="#" class="d-flex flex-row align-items-center">
-					<div>11:00 AM</div>
-					<textarea name="" id="" class="form-control" class="flex-grow-1"></textarea>
-					<div><button>==></button></div>
-				</form>
-
-				<form action="#" class="d-flex flex-row align-items-center">
-					<div>12:00 AM</div>
-					<textarea name="" id="" class="form-control" class="flex-grow-1"></textarea>
-					<div><button>==></button></div>
-				</form>
-
-				<form action="#" class="d-flex flex-row align-items-center">
-					<div>13:00 PM</div>
-					<textarea name="" id="" class="form-control" class="flex-grow-1"></textarea>
-					<div><button>==></button></div>
-				</form>
-
-				<form action="#" class="d-flex flex-row align-items-center">
-					<div>14:00 PM</div>
-					<textarea name="" id="" class="form-control" class="flex-grow-1"></textarea>
-					<div><button>==></button></div>
-				</form>
-
-				<form action="#" class="d-flex flex-row align-items-center">
-					<div>15:00 PM</div>
-					<textarea name="" id="" class="form-control" class="flex-grow-1"></textarea>
-					<div><button>==></button></div>
-				</form>
-
-				<form action="#" class="d-flex flex-row align-items-center">
-					<div>16:00 PM</div>
-					<textarea name="" id="" class="form-control" class="flex-grow-1"></textarea>
-					<div><button>==></button></div>
-				</form>
-
-				<form action="#" class="d-flex flex-row align-items-center">
-					<div>17:00 PM</div>
-					<textarea name="" id="" class="form-control" class="flex-grow-1"></textarea>
-					<div><button>==></button></div>
+					<button
+						class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<span>💾</span>
+					</button>
 				</form>
 			</main>
 		</div>
