@@ -88,3 +88,18 @@ body {
 	font-size: 20px;
 	transition: all 0.3s ease-in-out;
 }
+
+form {
+	margin-top: 2em;
+}
+
+.reset-btn {
+	margin-top: 2em;
+}
+
+.popUp {
+	margin: 0 auto;
+	max-width: 500px;
+	min-height: 50px;
+	display: none;
+}
