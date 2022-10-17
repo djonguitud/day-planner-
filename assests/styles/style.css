@@ -87,10 +87,9 @@ body {
 .saveBtn span:hover {
 	font-size: 20px;
 	transition: all 0.3s ease-in-out;
-} local-storage-task-feat
-
-form {
-	margin-top: 2em;
+}
+local-storage-task-feat form {
+	margin-top: 3em;
 }
 
 .reset-btn {
@@ -102,5 +101,5 @@ form {
 	max-width: 500px;
 	min-height: 50px;
 	display: none;
+	margin-bottom: 1em;
 }
-

@@ -12,7 +12,7 @@ en un horario laboral ordinario de 9AM a 5PM.
 
 ## Demo
 
--[Visita la página web, haciendo click aqui!](https://djonguitud.github.io/survey-webdev/)
+- [Visita la página web, haciendo click aqui!](https://djonguitud.github.io/survey-webdev/)
 
 ##Screenshot
 ![Web page demo](/Media/sshot-prototype.png 'Screenshot ')
@@ -26,7 +26,6 @@ en un horario laboral ordinario de 9AM a 5PM.
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
-<br>
 <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
 <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/>
 

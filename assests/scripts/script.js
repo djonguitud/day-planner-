@@ -98,7 +98,7 @@ function hide() {
 		setInterval(function () {
 			elPopUp.css('display', 'none');
 			clearInterval();
-		}, 3000);
+		}, 4000);
 	}
 }
 
