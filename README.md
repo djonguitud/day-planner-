@@ -12,7 +12,7 @@ en un horario laboral ordinario de 9AM a 5PM.
 
 ## Demo
 
-- [Visita la página web, haciendo click aqui!](https://djonguitud.github.io/survey-webdev/)
+- [Visita la página web, haciendo click aqui!](https://djonguitud.github.io/day-planner-/)
 
 ##Screenshot
 ![Web page demo](/Media/sshot-prototype.png 'Screenshot ')
