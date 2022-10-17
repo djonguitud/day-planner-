@@ -101,3 +101,5 @@ function hide() {
 		}, 3000);
 	}
 }
+
+timeColor();
