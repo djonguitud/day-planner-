@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css" />
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -27,91 +27,102 @@
 				<p class="lead">Una aplicación de calendario simple para programar su día de trabajo</p>
 				<p id="currentDay" class="lead"></p>
 			</header>
-			<main class="container-l h-auto">
+			<div class="popUp alert alert-success" role="alert"> Perfecto! Tu evento ha sido guardado.</div>
+			<form class="container-l h-auto">
 				<!-- Timeblocks go here -->
 
-				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+				<div action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
 					<div class="hour flex-fill d-flex flex-column align-content-center justify-content-center"> 9AM </div>
 					<div class="textarea__wrap">
-						<textarea name="" id="" class="form-control" data-time="9"></textarea>
+						<textarea name="" id="" class="form-control" data-time="09"></textarea>
 					</div>
-					<button class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
-						<span>💾</span>
+					<button type="submit" class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<i>💾</i>
+
 					</button>
-				</form>
-				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+				</div>
+
+				<div action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
 					<div class="hour flex-fill d-flex flex-column align-content-center justify-content-center"> 10AM </div>
 					<div class="textarea__wrap">
 						<textarea name="" id="" class="form-control" data-time="10"></textarea>
 					</div>
-					<button class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
-						<span>💾</span>
+					<button type="submit" class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<i>💾</i>
 					</button>
-				</form>
-				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+				</div>
+
+				<div action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
 					<div class="hour flex-fill d-flex flex-column align-content-center justify-content-center"> 11AM </div>
 					<div class="textarea__wrap">
-						<textarea name="" id="" class="form-control" data-time="1"></textarea>
+						<textarea name="" id="" class="form-control" data-time="11"></textarea>
 					</div>
-					<button class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
-						<span>💾</span>
+					<button type="submit" class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<i>💾</i>
 					</button>
-				</form>
-				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+				</div>
+
+				<div action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
 					<div class="hour flex-fill d-flex flex-column align-content-center justify-content-center"> 12PM </div>
 					<div class="textarea__wrap">
 						<textarea name="" id="" class="form-control" data-time="12"></textarea>
 					</div>
-					<button class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
-						<span>💾</span>
+					<button type="submit" class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<i>💾</i>
 					</button>
-				</form>
-				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+				</div>
+
+				<div action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
 					<div class="hour flex-fill d-flex flex-column align-content-center justify-content-center"> 1PM </div>
 					<div class="textarea__wrap">
-						<textarea name="" id="" class="form-control" data-time="1"></textarea>
+						<textarea name="" id="" class="form-control" data-time="13"></textarea>
 					</div>
-					<button class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
-						<span>💾</span>
+					<button type="submit" class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<i>💾</i>
 					</button>
-				</form>
-				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+				</div>
+
+				<div action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
 					<div class="hour flex-fill d-flex flex-column align-content-center justify-content-center"> 2PM </div>
 					<div class="textarea__wrap">
-						<textarea name="" id="" class="form-control" data-time="2"></textarea>
+						<textarea name="" id="" class="form-control" data-time="14"></textarea>
 					</div>
-					<button class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
-						<span>💾</span>
+					<button type="submit" class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<i>💾</i>
 					</button>
-				</form>
-				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+				</div>
+
+				<div action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
 					<div class="hour flex-fill d-flex flex-column align-content-center justify-content-center"> 3PM </div>
 					<div class="textarea__wrap">
-						<textarea name="" id="" class="form-control" data-time="3"></textarea>
+						<textarea name="" id="" class="form-control" data-time="15"></textarea>
 					</div>
-					<button class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
-						<span>💾</span>
+					<button type="submit" class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<i>💾</i>
 					</button>
-				</form>
-				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+				</div>
+
+				<div action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
 					<div class="hour flex-fill d-flex flex-column align-content-center justify-content-center"> 4PM </div>
 					<div class="textarea__wrap">
-						<textarea name="" id="" class="form-control" data-time="4"></textarea>
+						<textarea name="" id="" class="form-control" data-time="16"></textarea>
 					</div>
-					<button class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
-						<span>💾</span>
+					<button type="submit" class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<i>💾</i>
 					</button>
-				</form>
-				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+				</div>
+
+				<div action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
 					<div class="hour flex-fill d-flex flex-column align-content-center justify-content-center"> 5PM </div>
 					<div class="textarea__wrap">
-						<textarea name="" id="" class="form-control" data-time="5CLEAR"></textarea>
+						<textarea name="" id="" class="form-control" data-time="17"></textarea>
 					</div>
-					<button class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
-						<span>💾</span>
+					<button type="submit" class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<i>💾</i>
 					</button>
-				</form>
-			</main>
+				</div>
+			</form>
+			<div class="reset-btn d-flex justify-content-center align-content-center"><button class="yellow-btn btn btn-warning btn-lg" type="reset" value="Reset">Reset tasks</button> </div>
 		</div>
 
 		<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
