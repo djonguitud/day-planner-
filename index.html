@@ -10,89 +10,107 @@
 			rel="stylesheet"
 			integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
 			crossorigin="anonymous" />
-		<link
-			rel="stylesheet"
-			href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-			integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-			crossorigin="anonymous" />
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-		<link rel="stylesheet" href="./assests/style.css" />
+		<link rel="stylesheet" href="./assests/styles/style.css" />
 		<title>Planificador de días de trabajo</title>
 	</head>
 
-	<body>
-		<div class="container row-cols-6">
+	<body class="p-3 mb-2 bg-dark text-white">
+		<div class="container-xxl flex-column text-center h-100">
 			<header class="jumbotron text-center col-12">
 				<h1 class="display-3">Planificador de días de trabajo</h1>
 				<p class="lead">Una aplicación de calendario simple para programar su día de trabajo</p>
 				<p id="currentDay" class="lead"></p>
 			</header>
-			<main class="text-bg-primary p-3 col-12">
+			<main class="container-l h-auto">
 				<!-- Timeblocks go here -->
-				<form action="#" class="d-flex flex-row align-items-center justify-content-center">
-					<div>9:00 AM</div>
-					<textarea name="" id="" class="form-control" class="flex-grow-1"></textarea>
-					<div><button>==></button></div>
-				</form>
 
-				<form action="#" class="d-flex flex-row align-items-center">
-					<div>10:00 AM</div>
-					<textarea name="" id="" class="form-control" class="flex-grow-1"></textarea>
-					<div><button>==></button></div>
+				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+					<div class="hour flex-fill d-flex flex-column align-content-center justify-content-center"> 9AM </div>
+					<div class="textarea__wrap">
+						<textarea name="" id="" class="form-control" data-time="9"></textarea>
+					</div>
+					<button class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<span>💾</span>
+					</button>
 				</form>
-
-				<form action="#" class="d-flex flex-row align-items-center">
-					<div>11:00 AM</div>
-					<textarea name="" id="" class="form-control" class="flex-grow-1"></textarea>
-					<div><button>==></button></div>
+				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+					<div class="hour flex-fill d-flex flex-column align-content-center justify-content-center"> 10AM </div>
+					<div class="textarea__wrap">
+						<textarea name="" id="" class="form-control" data-time="10"></textarea>
+					</div>
+					<button class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<span>💾</span>
+					</button>
 				</form>
-
-				<form action="#" class="d-flex flex-row align-items-center">
-					<div>12:00 AM</div>
-					<textarea name="" id="" class="form-control" class="flex-grow-1"></textarea>
-					<div><button>==></button></div>
+				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+					<div class="hour flex-fill d-flex flex-column align-content-center justify-content-center"> 11AM </div>
+					<div class="textarea__wrap">
+						<textarea name="" id="" class="form-control" data-time="1"></textarea>
+					</div>
+					<button class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<span>💾</span>
+					</button>
 				</form>
-
-				<form action="#" class="d-flex flex-row align-items-center">
-					<div>13:00 PM</div>
-					<textarea name="" id="" class="form-control" class="flex-grow-1"></textarea>
-					<div><button>==></button></div>
+				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+					<div class="hour flex-fill d-flex flex-column align-content-center justify-content-center"> 12PM </div>
+					<div class="textarea__wrap">
+						<textarea name="" id="" class="form-control" data-time="12"></textarea>
+					</div>
+					<button class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<span>💾</span>
+					</button>
 				</form>
-
-				<form action="#" class="d-flex flex-row align-items-center">
-					<div>14:00 PM</div>
-					<textarea name="" id="" class="form-control" class="flex-grow-1"></textarea>
-					<div><button>==></button></div>
+				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+					<div class="hour flex-fill d-flex flex-column align-content-center justify-content-center"> 1PM </div>
+					<div class="textarea__wrap">
+						<textarea name="" id="" class="form-control" data-time="1"></textarea>
+					</div>
+					<button class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<span>💾</span>
+					</button>
 				</form>
-
-				<form action="#" class="d-flex flex-row align-items-center">
-					<div>15:00 PM</div>
-					<textarea name="" id="" class="form-control" class="flex-grow-1"></textarea>
-					<div><button>==></button></div>
+				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+					<div class="hour flex-fill d-flex flex-column align-content-center justify-content-center"> 2PM </div>
+					<div class="textarea__wrap">
+						<textarea name="" id="" class="form-control" data-time="2"></textarea>
+					</div>
+					<button class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<span>💾</span>
+					</button>
 				</form>
-
-				<form action="#" class="d-flex flex-row align-items-center">
-					<div>16:00 PM</div>
-					<textarea name="" id="" class="form-control" class="flex-grow-1"></textarea>
-					<div><button>==></button></div>
+				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+					<div class="hour flex-fill d-flex flex-column align-content-center justify-content-center"> 3PM </div>
+					<div class="textarea__wrap">
+						<textarea name="" id="" class="form-control" data-time="3"></textarea>
+					</div>
+					<button class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<span>💾</span>
+					</button>
 				</form>
-
-				<form action="#" class="d-flex flex-row align-items-center">
-					<div>17:00 PM</div>
-					<textarea name="" id="" class="form-control" class="flex-grow-1"></textarea>
-					<div><button>==></button></div>
+				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+					<div class="hour flex-fill d-flex flex-column align-content-center justify-content-center"> 4PM </div>
+					<div class="textarea__wrap">
+						<textarea name="" id="" class="form-control" data-time="4"></textarea>
+					</div>
+					<button class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<span>💾</span>
+					</button>
+				</form>
+				<form action="#" class="time-block form-height d-flex flex-row align-items-lg-stretch">
+					<div class="hour flex-fill d-flex flex-column align-content-center justify-content-center"> 5PM </div>
+					<div class="textarea__wrap">
+						<textarea name="" id="" class="form-control" data-time="5CLEAR"></textarea>
+					</div>
+					<button class="saveBtn flex-fill d-block h-auto d-flex flex-column align-content-center justify-content-center">
+						<span>💾</span>
+					</button>
 				</form>
 			</main>
 		</div>
 
-		<script
-			src="https://code.jquery.com/jquery-3.6.1.min.js"
-			integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-			crossorigin="anonymous"></script>
-		<script
-			src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"
-			integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0="
-			crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
